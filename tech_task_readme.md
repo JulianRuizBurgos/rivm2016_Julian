@@ -7,11 +7,11 @@ You can reach us at software@metabolic.nl.
 ### Steps to complete the assignment
 1. Understand the task requirements, and ask questions, if any.
 2. Understand the data format & schema, and ask questions, if any.
-3. Fork this repository https://github.com/SystemicBV/rivm2016
+3. Checkout the code from this repository https://github.com/SystemicBV/rivm2016, into a private repository of your own.
 4. Implement the task in your preferred tech stack.
 5. Update the README.md with the instructions to setup the assignment.
-6. Check in all your work in the cloned repo and do not forget to try out the instructions yourself.
-7. Submit the assignment as a link to your cloned repo. 
+6. Check in all your work in the your repo and do not forget to try out the instructions yourself.
+7. Submit the assignment as a link to your repository. 
 Email to software@metabolic.nl, with the subject "Task < ID > Submission for < Role >". 
 
 # Tech task 1 - Backend Developer
