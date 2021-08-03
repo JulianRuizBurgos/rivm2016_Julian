@@ -1,0 +1,10 @@
+{
+    // "python.pythonPath": "c:\\Users\\JulianRuizBurgos\\Google Drive\\Repositories\\rivm2016_Julian\\metabolic\\Scripts\\python.exe",
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.testing.pytestArgs": [
+        "test"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
