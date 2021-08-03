@@ -2,7 +2,7 @@ import pytest
 from os import sys, path
 sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
-from src.DatabaseManager import DatabaseManager
+from databasemanager import DatabaseManager
 
 def test_couchdb_is_accessible():
     print("Test that CouchDB server can be accessed")
