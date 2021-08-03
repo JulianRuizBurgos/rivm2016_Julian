@@ -11,7 +11,7 @@ def test_resolve_indicator_by_id():
         'units': 'MJ-Eq'
         }
         
-    result = resolvers.resolve_indicator_by_id(None, None, 247952362168809575136085981609942424906)
+    result = resolvers.resolve_indicator_by_id(None, None, 273737595174257546810686733816717221194)
 
     assert expected == result
 

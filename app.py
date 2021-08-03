@@ -21,6 +21,12 @@ query.set_field('entry', resolvers.resolve_entry_by_id)
 query.set_field('entries', resolvers.resolve_entries)
 query.set_field('impact', resolvers.resolve_impact)
 
+entry.set_field('geography', resolvers.resolve_geography)
+entry.set_field('impact', resolvers.resolve_impact_related_to_entry)
+
+impact.set_field('indicator', resolvers.resolve_indicator_for_impact)
+impact.set_field('entry', resolvers.resolve_entry_for_impact)
+
 
 schema = make_executable_schema(type_defs, [indicator, entry, impact, geography, query])
 
