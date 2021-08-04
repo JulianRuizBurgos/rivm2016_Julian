@@ -6449,3 +6449,859 @@
         "unit": "kg"
     }
 }
+2021-08-04 09:22:13 INFO     resolvers:resolve_impact(): Querying database for impact based on entry id 273737595570398359382690998602960313674 and indicator id 273737593272781646469452205929855819082
+2021-08-04 09:22:13 INFO     resolvers:build_http_request(): Sending {'selector': {'entry': {'id': 273737595570398359382690998602960313674}, 'indicators': {'$elemMatch': {'id': 273737593272781646469452205929855819082}}}} to http://127.0.0.1:5984/rivm2016/_find
+2021-08-04 09:22:14 DEBUG    {
+    "docs": [
+        {
+            "_id": "6b711b9b3402771e79baac9f72432b36",
+            "_rev": "1-a5aea791ce29e9855fa78d62a31f52a0",
+            "index": 9,
+            "Data source": "RIVM_2016",
+            "Unit": "kg",
+            "Reference quantity": 1,
+            "": null,
+            "indicators": [
+                {
+                    "id": 273737593193553483957157630223333039434,
+                    "method": "cumulative energy demand",
+                    "category": "biomass",
+                    "indicator": "renewable energy resources, biomass",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593272781646469452205929855819082,
+                    "method": "cumulative energy demand",
+                    "category": "fossil",
+                    "indicator": "non-renewable energy resources, fossil",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593352009808984097660641865997642,
+                    "method": "cumulative energy demand",
+                    "category": "geothermal",
+                    "indicator": "renewable energy resources, geothermal, converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593431237971499835519738490232138,
+                    "method": "cumulative energy demand",
+                    "category": "nuclear",
+                    "indicator": "non-renewable energy resources, nuclear",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593510466134013592076474048159050,
+                    "method": "cumulative energy demand",
+                    "category": "primary forest",
+                    "indicator": "non-renewable energy resources, primary forest",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593589694296525436573692810599754,
+                    "method": "cumulative energy demand",
+                    "category": "solar",
+                    "indicator": "renewable energy resources, solar, converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593668922459038784710237161364810,
+                    "method": "cumulative energy demand",
+                    "category": "water",
+                    "indicator": "renewable energy resources, potential (in barrage water), converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593748150621555833116825350413642,
+                    "method": "cumulative energy demand",
+                    "category": "wind",
+                    "indicator": "renewable energy resources, kinetic (in wind), converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593827378784067981325543983652170,
+                    "method": "cumulative energy demand",
+                    "category": "renewable",
+                    "indicator": "total renewables (wind, solar, water, geothermal, biomass)",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593906606946582848301062665117002,
+                    "method": "cumulative energy demand",
+                    "category": "non-renewable",
+                    "indicator": "total non-renewables (fossil, nuclear, primary forest)",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593985835109098475821968418774346,
+                    "method": "IPCC 2013",
+                    "category": "climate change",
+                    "indicator": "GWP 100a",
+                    "units": "kg CO2-Eq",
+                    "value": 16.4
+                },
+                {
+                    "id": 273737594065063271610959548859291114826,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "agricultural land occupation",
+                    "indicator": "ALOP",
+                    "units": "m2a",
+                    "value": 16.1
+                },
+                {
+                    "id": 273737594144291434126047482234690444618,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "climate change",
+                    "indicator": "GWP100",
+                    "units": "kg CO2-Eq",
+                    "value": 16.4
+                },
+                {
+                    "id": 273737594223519596640614968378151771466,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "fossil depletion",
+                    "indicator": "FDP",
+                    "units": "kg oil-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594302747759156138343542522486090,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "freshwater ecotoxicity",
+                    "indicator": "FETPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737594381975921667232991423327739210,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "freshwater eutrophication",
+                    "indicator": "FEP",
+                    "units": "kg P-Eq",
+                    "value": 0.171
+                },
+                {
+                    "id": 273737594461204084183410795908550729034,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "human toxicity",
+                    "indicator": "HTPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737594540432246697490204442395778378,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "ionising radiation",
+                    "indicator": "IRP_HE",
+                    "units": "kg U235-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594619660409211768615784775261514,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "marine ecotoxicity",
+                    "indicator": "METPinf",
+                    "units": "kg 1,4-DB.",
+                    "value": null
+                },
+                {
+                    "id": 273737594698888571727350537744301792586,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "marine eutrophication",
+                    "indicator": "MEP",
+                    "units": "kg N-Eq",
+                    "value": 0.00302
+                },
+                {
+                    "id": 273737594778116734240483627406445616458,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "metal depletion",
+                    "indicator": "MDP",
+                    "units": "kg Fe-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594857344896754345174308316618058,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "natural land transformation",
+                    "indicator": "NLTP",
+                    "units": "m2",
+                    "value": null
+                },
+                {
+                    "id": 273737594936573059270247696266316586314,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "ozone depletion",
+                    "indicator": "ODPinf",
+                    "units": "kg CFC-11.",
+                    "value": null
+                },
+                {
+                    "id": 273737595015801221785432738508681092426,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "particulate matter formation",
+                    "indicator": "PMFP",
+                    "units": "kg PM10-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737595095029384299857798313926827338,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "photochemical oxidant formation",
+                    "indicator": "POFP",
+                    "units": "kg NMVOC-.",
+                    "value": null
+                },
+                {
+                    "id": 273737595174257546810686733816717221194,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "terrestrial acidification",
+                    "indicator": "TAP100",
+                    "units": "kg SO2-Eq",
+                    "value": 0.399
+                },
+                {
+                    "id": 273737595253485709325037765703088053578,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "terrestrial ecotoxicity",
+                    "indicator": "TETPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737595332713871839903333846885965130,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "urban land occupation",
+                    "indicator": "ULOP",
+                    "units": "m2a",
+                    "value": null
+                },
+                {
+                    "id": 273737595411942034356688842806827261258,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "water depletion",
+                    "indicator": "WDP",
+                    "units": "m3 water-.",
+                    "value": 0.281
+                },
+                {
+                    "id": 273737595491170196871196937730202639690,
+                    "method": "CML 2001 (obsolete)",
+                    "category": "land use",
+                    "indicator": "competition",
+                    "units": "m2a",
+                    "value": null
+                }
+            ],
+            "method": "[NL]",
+            "entry": {
+                "id": 273737595570398359382690998602960313674,
+                "product_name": "Worst",
+                "geography": "rook/rund-",
+                "unit": "kg"
+            }
+        }
+    ],
+    "bookmark": "g1AAAABweJzLYWBgYMpgSmHgKy5JLCrJTq2MT8lPzkzJBYormCWZGxomWSYZmxgYmZsbpppbJiUmJlummRuZGBslGZuB9HHA9BGlIwsAgsMdsQ",
+    "warning": "No matching index found, create an index to optimize query time.\nThe number of documents examined is high in proportion to the number of results returned. Consider adding a more specific index to improve this."
+}
+2021-08-04 09:22:14 DEBUG    resolvers:resolve_indicator_for_impact(): Resolving indicator for impact 235011665184323874405482464057612410186
+2021-08-04 09:22:14 INFO     resolvers:resolve_indicator_by_id(): Querying database for indicator 273737593272781646469452205929855819082
+2021-08-04 09:22:14 INFO     resolvers:build_http_request(): Sending {'selector': {'indicators': {'$elemMatch': {'id': 273737593272781646469452205929855819082}}}} to http://127.0.0.1:5984/rivm2016/_find
+2021-08-04 09:22:14 DEBUG    {
+    "docs": [
+        {
+            "_id": "6b711b9b3402771e79baac9f72432b36",
+            "_rev": "1-a5aea791ce29e9855fa78d62a31f52a0",
+            "index": 9,
+            "Data source": "RIVM_2016",
+            "Unit": "kg",
+            "Reference quantity": 1,
+            "": null,
+            "indicators": [
+                {
+                    "id": 273737593193553483957157630223333039434,
+                    "method": "cumulative energy demand",
+                    "category": "biomass",
+                    "indicator": "renewable energy resources, biomass",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593272781646469452205929855819082,
+                    "method": "cumulative energy demand",
+                    "category": "fossil",
+                    "indicator": "non-renewable energy resources, fossil",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593352009808984097660641865997642,
+                    "method": "cumulative energy demand",
+                    "category": "geothermal",
+                    "indicator": "renewable energy resources, geothermal, converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593431237971499835519738490232138,
+                    "method": "cumulative energy demand",
+                    "category": "nuclear",
+                    "indicator": "non-renewable energy resources, nuclear",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593510466134013592076474048159050,
+                    "method": "cumulative energy demand",
+                    "category": "primary forest",
+                    "indicator": "non-renewable energy resources, primary forest",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593589694296525436573692810599754,
+                    "method": "cumulative energy demand",
+                    "category": "solar",
+                    "indicator": "renewable energy resources, solar, converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593668922459038784710237161364810,
+                    "method": "cumulative energy demand",
+                    "category": "water",
+                    "indicator": "renewable energy resources, potential (in barrage water), converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593748150621555833116825350413642,
+                    "method": "cumulative energy demand",
+                    "category": "wind",
+                    "indicator": "renewable energy resources, kinetic (in wind), converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593827378784067981325543983652170,
+                    "method": "cumulative energy demand",
+                    "category": "renewable",
+                    "indicator": "total renewables (wind, solar, water, geothermal, biomass)",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593906606946582848301062665117002,
+                    "method": "cumulative energy demand",
+                    "category": "non-renewable",
+                    "indicator": "total non-renewables (fossil, nuclear, primary forest)",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593985835109098475821968418774346,
+                    "method": "IPCC 2013",
+                    "category": "climate change",
+                    "indicator": "GWP 100a",
+                    "units": "kg CO2-Eq",
+                    "value": 16.4
+                },
+                {
+                    "id": 273737594065063271610959548859291114826,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "agricultural land occupation",
+                    "indicator": "ALOP",
+                    "units": "m2a",
+                    "value": 16.1
+                },
+                {
+                    "id": 273737594144291434126047482234690444618,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "climate change",
+                    "indicator": "GWP100",
+                    "units": "kg CO2-Eq",
+                    "value": 16.4
+                },
+                {
+                    "id": 273737594223519596640614968378151771466,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "fossil depletion",
+                    "indicator": "FDP",
+                    "units": "kg oil-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594302747759156138343542522486090,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "freshwater ecotoxicity",
+                    "indicator": "FETPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737594381975921667232991423327739210,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "freshwater eutrophication",
+                    "indicator": "FEP",
+                    "units": "kg P-Eq",
+                    "value": 0.171
+                },
+                {
+                    "id": 273737594461204084183410795908550729034,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "human toxicity",
+                    "indicator": "HTPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737594540432246697490204442395778378,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "ionising radiation",
+                    "indicator": "IRP_HE",
+                    "units": "kg U235-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594619660409211768615784775261514,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "marine ecotoxicity",
+                    "indicator": "METPinf",
+                    "units": "kg 1,4-DB.",
+                    "value": null
+                },
+                {
+                    "id": 273737594698888571727350537744301792586,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "marine eutrophication",
+                    "indicator": "MEP",
+                    "units": "kg N-Eq",
+                    "value": 0.00302
+                },
+                {
+                    "id": 273737594778116734240483627406445616458,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "metal depletion",
+                    "indicator": "MDP",
+                    "units": "kg Fe-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594857344896754345174308316618058,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "natural land transformation",
+                    "indicator": "NLTP",
+                    "units": "m2",
+                    "value": null
+                },
+                {
+                    "id": 273737594936573059270247696266316586314,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "ozone depletion",
+                    "indicator": "ODPinf",
+                    "units": "kg CFC-11.",
+                    "value": null
+                },
+                {
+                    "id": 273737595015801221785432738508681092426,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "particulate matter formation",
+                    "indicator": "PMFP",
+                    "units": "kg PM10-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737595095029384299857798313926827338,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "photochemical oxidant formation",
+                    "indicator": "POFP",
+                    "units": "kg NMVOC-.",
+                    "value": null
+                },
+                {
+                    "id": 273737595174257546810686733816717221194,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "terrestrial acidification",
+                    "indicator": "TAP100",
+                    "units": "kg SO2-Eq",
+                    "value": 0.399
+                },
+                {
+                    "id": 273737595253485709325037765703088053578,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "terrestrial ecotoxicity",
+                    "indicator": "TETPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737595332713871839903333846885965130,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "urban land occupation",
+                    "indicator": "ULOP",
+                    "units": "m2a",
+                    "value": null
+                },
+                {
+                    "id": 273737595411942034356688842806827261258,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "water depletion",
+                    "indicator": "WDP",
+                    "units": "m3 water-.",
+                    "value": 0.281
+                },
+                {
+                    "id": 273737595491170196871196937730202639690,
+                    "method": "CML 2001 (obsolete)",
+                    "category": "land use",
+                    "indicator": "competition",
+                    "units": "m2a",
+                    "value": null
+                }
+            ],
+            "method": "[NL]",
+            "entry": {
+                "id": 273737595570398359382690998602960313674,
+                "product_name": "Worst",
+                "geography": "rook/rund-",
+                "unit": "kg"
+            }
+        }
+    ],
+    "bookmark": "g1AAAABweJzLYWBgYMpgSmHgKy5JLCrJTq2MT8lPzkzJBYormCWZGxomWSYZmxgYmZsbpppbJiUmJlummRuZGBslGZuB9HHA9BGlIwsAgsMdsQ",
+    "warning": "No matching index found, create an index to optimize query time.\nThe number of documents examined is high in proportion to the number of results returned. Consider adding a more specific index to improve this."
+}
+2021-08-04 09:22:14 DEBUG    FOUND
+2021-08-04 09:22:14 DEBUG    [
+    {
+        "id": 273737593272781646469452205929855819082,
+        "method": "cumulative energy demand",
+        "category": "fossil",
+        "indicator": "non-renewable energy resources, fossil",
+        "units": "MJ-Eq",
+        "value": null
+    }
+]
+2021-08-04 09:22:14 DEBUG    FOUND
+2021-08-04 09:22:14 DEBUG    {
+    "id": 273737593272781646469452205929855819082,
+    "method": "cumulative energy demand",
+    "category": "fossil",
+    "indicator": "non-renewable energy resources, fossil",
+    "units": "MJ-Eq"
+}
+2021-08-04 09:22:14 DEBUG    resolvers:resolve_indicator_for_impact(): Retrieved indicator {
+    "id": 273737593272781646469452205929855819082,
+    "method": "cumulative energy demand",
+    "category": "fossil",
+    "indicator": "non-renewable energy resources, fossil",
+    "units": "MJ-Eq"
+}
+2021-08-04 09:22:14 DEBUG    None
+2021-08-04 09:22:14 DEBUG    resolvers:resolve_indicator_for_impact(): Resolving indicator for impact 235011665184323874405482464057612410186
+2021-08-04 09:22:14 INFO     resolvers:resolve_entry_by_id(): Querying database for entry 273737595570398359382690998602960313674
+2021-08-04 09:22:14 INFO     resolvers:build_http_request(): Sending {'selector': {'entry': {'id': 273737595570398359382690998602960313674}}} to http://127.0.0.1:5984/rivm2016/_find
+2021-08-04 09:22:14 DEBUG    {
+    "docs": [
+        {
+            "_id": "6b711b9b3402771e79baac9f72432b36",
+            "_rev": "1-a5aea791ce29e9855fa78d62a31f52a0",
+            "index": 9,
+            "Data source": "RIVM_2016",
+            "Unit": "kg",
+            "Reference quantity": 1,
+            "": null,
+            "indicators": [
+                {
+                    "id": 273737593193553483957157630223333039434,
+                    "method": "cumulative energy demand",
+                    "category": "biomass",
+                    "indicator": "renewable energy resources, biomass",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593272781646469452205929855819082,
+                    "method": "cumulative energy demand",
+                    "category": "fossil",
+                    "indicator": "non-renewable energy resources, fossil",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593352009808984097660641865997642,
+                    "method": "cumulative energy demand",
+                    "category": "geothermal",
+                    "indicator": "renewable energy resources, geothermal, converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593431237971499835519738490232138,
+                    "method": "cumulative energy demand",
+                    "category": "nuclear",
+                    "indicator": "non-renewable energy resources, nuclear",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593510466134013592076474048159050,
+                    "method": "cumulative energy demand",
+                    "category": "primary forest",
+                    "indicator": "non-renewable energy resources, primary forest",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593589694296525436573692810599754,
+                    "method": "cumulative energy demand",
+                    "category": "solar",
+                    "indicator": "renewable energy resources, solar, converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593668922459038784710237161364810,
+                    "method": "cumulative energy demand",
+                    "category": "water",
+                    "indicator": "renewable energy resources, potential (in barrage water), converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593748150621555833116825350413642,
+                    "method": "cumulative energy demand",
+                    "category": "wind",
+                    "indicator": "renewable energy resources, kinetic (in wind), converted",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593827378784067981325543983652170,
+                    "method": "cumulative energy demand",
+                    "category": "renewable",
+                    "indicator": "total renewables (wind, solar, water, geothermal, biomass)",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593906606946582848301062665117002,
+                    "method": "cumulative energy demand",
+                    "category": "non-renewable",
+                    "indicator": "total non-renewables (fossil, nuclear, primary forest)",
+                    "units": "MJ-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737593985835109098475821968418774346,
+                    "method": "IPCC 2013",
+                    "category": "climate change",
+                    "indicator": "GWP 100a",
+                    "units": "kg CO2-Eq",
+                    "value": 16.4
+                },
+                {
+                    "id": 273737594065063271610959548859291114826,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "agricultural land occupation",
+                    "indicator": "ALOP",
+                    "units": "m2a",
+                    "value": 16.1
+                },
+                {
+                    "id": 273737594144291434126047482234690444618,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "climate change",
+                    "indicator": "GWP100",
+                    "units": "kg CO2-Eq",
+                    "value": 16.4
+                },
+                {
+                    "id": 273737594223519596640614968378151771466,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "fossil depletion",
+                    "indicator": "FDP",
+                    "units": "kg oil-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594302747759156138343542522486090,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "freshwater ecotoxicity",
+                    "indicator": "FETPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737594381975921667232991423327739210,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "freshwater eutrophication",
+                    "indicator": "FEP",
+                    "units": "kg P-Eq",
+                    "value": 0.171
+                },
+                {
+                    "id": 273737594461204084183410795908550729034,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "human toxicity",
+                    "indicator": "HTPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737594540432246697490204442395778378,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "ionising radiation",
+                    "indicator": "IRP_HE",
+                    "units": "kg U235-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594619660409211768615784775261514,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "marine ecotoxicity",
+                    "indicator": "METPinf",
+                    "units": "kg 1,4-DB.",
+                    "value": null
+                },
+                {
+                    "id": 273737594698888571727350537744301792586,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "marine eutrophication",
+                    "indicator": "MEP",
+                    "units": "kg N-Eq",
+                    "value": 0.00302
+                },
+                {
+                    "id": 273737594778116734240483627406445616458,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "metal depletion",
+                    "indicator": "MDP",
+                    "units": "kg Fe-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737594857344896754345174308316618058,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "natural land transformation",
+                    "indicator": "NLTP",
+                    "units": "m2",
+                    "value": null
+                },
+                {
+                    "id": 273737594936573059270247696266316586314,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "ozone depletion",
+                    "indicator": "ODPinf",
+                    "units": "kg CFC-11.",
+                    "value": null
+                },
+                {
+                    "id": 273737595015801221785432738508681092426,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "particulate matter formation",
+                    "indicator": "PMFP",
+                    "units": "kg PM10-Eq",
+                    "value": null
+                },
+                {
+                    "id": 273737595095029384299857798313926827338,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "photochemical oxidant formation",
+                    "indicator": "POFP",
+                    "units": "kg NMVOC-.",
+                    "value": null
+                },
+                {
+                    "id": 273737595174257546810686733816717221194,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "terrestrial acidification",
+                    "indicator": "TAP100",
+                    "units": "kg SO2-Eq",
+                    "value": 0.399
+                },
+                {
+                    "id": 273737595253485709325037765703088053578,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "terrestrial ecotoxicity",
+                    "indicator": "TETPinf",
+                    "units": "kg 1,4-DC.",
+                    "value": null
+                },
+                {
+                    "id": 273737595332713871839903333846885965130,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "urban land occupation",
+                    "indicator": "ULOP",
+                    "units": "m2a",
+                    "value": null
+                },
+                {
+                    "id": 273737595411942034356688842806827261258,
+                    "method": "ReCiPe Midpoint (H) V1.13",
+                    "category": "water depletion",
+                    "indicator": "WDP",
+                    "units": "m3 water-.",
+                    "value": 0.281
+                },
+                {
+                    "id": 273737595491170196871196937730202639690,
+                    "method": "CML 2001 (obsolete)",
+                    "category": "land use",
+                    "indicator": "competition",
+                    "units": "m2a",
+                    "value": null
+                }
+            ],
+            "method": "[NL]",
+            "entry": {
+                "id": 273737595570398359382690998602960313674,
+                "product_name": "Worst",
+                "geography": "rook/rund-",
+                "unit": "kg"
+            }
+        }
+    ],
+    "bookmark": "g1AAAABweJzLYWBgYMpgSmHgKy5JLCrJTq2MT8lPzkzJBYormCWZGxomWSYZmxgYmZsbpppbJiUmJlummRuZGBslGZuB9HHA9BGlIwsAgsMdsQ",
+    "warning": "No matching index found, create an index to optimize query time.\nThe number of documents examined is high in proportion to the number of results returned. Consider adding a more specific index to improve this."
+}
+2021-08-04 09:22:14 DEBUG    {
+    "id": 273737595570398359382690998602960313674,
+    "product_name": "Worst",
+    "geography": "rook/rund-",
+    "unit": "kg"
+}
+2021-08-04 09:22:14 DEBUG    resolvers:resolve_indicator_for_impact(): Retrieved indicator {
+    "id": 273737595570398359382690998602960313674,
+    "product_name": "Worst",
+    "geography": "rook/rund-",
+    "unit": "kg"
+}
+2021-08-04 09:22:14 DEBUG    {
+    "id": 235011665184323874405482464057612410186,
+    "coefficient": 0.0,
+    "indicator": {
+        "id": 273737593272781646469452205929855819082,
+        "method": "cumulative energy demand",
+        "category": "fossil",
+        "indicator": "non-renewable energy resources, fossil",
+        "units": "MJ-Eq"
+    },
+    "entry": {
+        "id": 273737595570398359382690998602960313674,
+        "product_name": "Worst",
+        "geography": "rook/rund-",
+        "unit": "kg"
+    }
+}
