@@ -132,4 +132,7 @@ dmypy.json
 metabolic/Lib/site-packages/*
 !metabolic/Lib/site-packages/databasemanager
 !metabolic/Lib/site-packages/loggerwrapper
+!metabolic/Lib/site-packages/graphqlserver
 Database Manager_log
+GraphQL resolver_log
+
