@@ -21,13 +21,13 @@ def test_resolve_indicators():
 def test_resolve_entry_by_id():
 
     expected = {
-        "id": 41032945853956639112186813749937937738,
-        "product_name": "Worst",
-        "geography": "rook/rund-",
+        "id": 27204426082222136872375596879506152778,
+        "productName": "Varkenskarbonade schouder",
+        "geography": "NL",
         "unit": "kg"
     }
 
-    result = resolvers.resolve_entry_by_id(None, None, 273737595570398359382690998602960313674)
+    result = resolvers.resolve_entry_by_id(None, None, 27204426082222136872375596879506152778)
 
     assert expected == result
 
