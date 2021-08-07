@@ -21,13 +21,13 @@ def test_resolve_indicators():
 def test_resolve_entry_by_id():
 
     expected = {
-        "id": 273737595570398359382690998602960313674,
-        "product_name": "Worst",
-        "geography": "rook/rund-",
+        "id": 27204426082222136872375596879506152778,
+        "productName": "Varkenskarbonade schouder",
+        "geography": "NL",
         "unit": "kg"
     }
 
-    result = resolvers.resolve_entry_by_id(None, None, 273737595570398359382690998602960313674)
+    result = resolvers.resolve_entry_by_id(None, None, 27204426082222136872375596879506152778)
 
     assert expected == result
 
@@ -37,9 +37,9 @@ def test_resolve_entries():
 def test_resolve_impact():
 
     expected = {
-        "coefficient" : 0.399
+        "coefficient" : 0.0
     }
 
-    result = resolvers.resolve_impact(None, None, 273737595570398359382690998602960313674, 273737595174257546810686733816717221194)
-
+    result = resolvers.resolve_impact(None, None, 41032945853956639112186813749937937738, 41008384806664567109155347110384999754)
+    print(result)
     assert result["coefficient"] == expected["coefficient"]
