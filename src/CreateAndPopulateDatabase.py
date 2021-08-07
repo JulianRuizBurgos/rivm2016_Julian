@@ -30,6 +30,7 @@ def run():
         logger.info("{process_name}.run(): Pouplated Database {db} successfully".format(process_name=process_name, db=config["database_name"]))
     except Exception as e:
         logger.error("{process_name}.run(): Encountered an error due to {e}".format(process_name=process_name, e=e))
+        raise
 
 if __name__ == '__main__':
     # To authorize you will need to enter your username and pw
