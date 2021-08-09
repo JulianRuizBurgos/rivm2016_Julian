@@ -3,8 +3,10 @@
 
 # Database
 ## Database server: CouchDB
+1. If not already installed, install .NET runtime 3.5 (https://download.microsoft.com/download/7/0/3/703455ee-a747-4cc8-bd3e-98a615c3aedb/dotNetFx35setup.exe)
 2. Install CouchDB server (https://couchdbneighbourhoodie.fra1.digitaloceanspaces.com/downloads/3.1.1/win/apache-couchdb-3.1.1.msi)
-3. Go to http://127.0.0.1:5984/_utils/#addAdmin/couchdb@localhost and add an admin user with name "admin" and password "admin".
+3. When asked during the installation, add user _admin_ with password _admin_ as a server admin. If not prompted, after installation go to http://127.0.0.1:5984/_utils/#addAdmin/couchdb@localhost and add an admin user with name "admin" and password "admin".
+
 ## Create and populate database
 4. Inside the root folder of the repository, run the python script  _<python_command> src/CreateAndPopulateDatabase.py -u admin -p admin -d rivm2016 -s "http://127.0.0.1:5984/" -i "data/rivm2016.csv"_
 
