@@ -1,8 +1,7 @@
 import json
-import couchdb
 import requests
 from loggerwrapper import Logger
-import uuid
+import subprocess
 
 logger = Logger("GraphQL resolver")
 PROCESS_NAME = "resolvers"
@@ -10,9 +9,15 @@ GET = "get"
 POST = "post"
 
 
+def get_docker_host_ip():
+    z = subprocess.check_output(['ip', '-4', 'route', 'list', 'match', '0/0'])
+    z = z.decode()[len('default via ') :]
+    return z[: z.find(' ')]
+
 def build_http_request(type, method, data):
 
-    base_url = "http://127.0.0.1:5984"
+    # base_url = "http://172.17.0.1:5984"
+    base_url = "http://host.docker.internal:5984"
     url = "{base_url}/{method}".format(base_url=base_url, method=method)
     headers = {
         'Accept': 'application/json',
